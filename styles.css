@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    height: 90vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+main {
+    height: 70vh;
+    width: 120vh;
+    z-index: 1;
+    display: flex;
+}
+
+.esquerda {
+    background-color: rgb(202, 190, 190);
+    height: 100%;
+    width: 30%;
+    z-index: 1;
+    border-radius: 20px 0px 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bem-vindo {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 110px;
+    color: #29294f;
+}
+
+.login1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #29294f;
+    letter-spacing: 0.1rem;
+}
+
+.criar-conta {
+    height: 4rem;
+    width: 80%;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.criar {
+    font-size: 21px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.aplicativos-div {
+    display: flex; 
+    width: 100%;
+    gap: 5%;
+    margin-top: -80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.aplicativos {
+    height: 20%;
+    width: 15%;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 100%;
+    display: flex;  
+    flex-direction: row;
+}
+
+.imagem {
+    height: 100%;
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;  
+}
+
+.whatsapp {
+    width: 15rem;
+    padding: 0.5rem;
+    height: auto;
+}
+
+
+.direita {
+    background-color: rgb(174, 174, 187);
+    height: 100%;
+    width: 70%;
+    z-index: 2;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.fazer-login {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #29294f;
+    letter-spacing: 1rem;
+}
+
+.divisor {
+    height: 5px;
+    width: 27.5%;
+    background-color: #29294f;
+    margin-right: 8.25rem;
+}
+
+.usuario,
+.senha {
+    height: 3.2rem;
+    width: 40%;
+    background-color: white;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0.25rem;
+    letter-spacing: 0.1rem;
+    color: #29294f;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.submit {
+    height: 4rem;
+    width: 33%;
+    margin-top: 40px;
+    background-color: #29294f;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    letter-spacing: 0.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.aplicativos-div2   {
+    display: flex; 
+    width: 40%;
+    height: 17.5%;
+    padding: 11px;
+    gap: 5%;
+    margin-top: -3rem;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 30%;
+}
+
+.aplicativos2 {
+    height: 60%;
+    width: 30%;
+    margin-top: 7rem;
+    background-color: white;
+    border-radius: 100%;
+    display: flex;  
+    flex-direction: row;
+}
+
+.imagem2 {
+    height: 100%;
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+}
+
+
+.circulo1 {
+    background: linear-gradient(to top, rgb(255, 251, 0), rgb(255, 123, 0));
+    border-radius: 300px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    position: absolute;
+    left: 80px;
+    bottom: 20px;
+}
+
+.circulo2 {
+    background: linear-gradient(to top, rgb(132, 0, 165), rgb(224, 29, 250));
+    border-radius: 350px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    position: absolute;
+    left: 750px;
+    bottom: 640px;
+}
+
+.circulo3 {
+    background: linear-gradient(to bottom, rgb(0, 255, 255), rgb(38, 101, 117));
+    border-radius: 300px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    position: absolute;
+    left: 850px;
+    bottom: 200px;
+}
+
+.circulo4 {
+    background: linear-gradient(to bottom, rgb(247, 93, 170), rgb(245, 15, 141));
+    border-radius: 450px;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    position: absolute;
+    left: 1300px;
+    bottom: 300px;
+}
